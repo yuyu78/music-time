@@ -7,7 +7,7 @@ The user can also book a musical class by selecting the instruments' choice.
 
 ## Table of contents
 1. [UX](#ux)   
-a.[User Stories](#user-stories)
+a.[User Stories](#user-stories)  
 b.[Strategy plane](#strategy-plane)   
 
 2. [Features](#features)  
@@ -37,7 +37,7 @@ The **targeted audiences** are:
 * Have an easy understanding of the website
 * Find quickly the instrument the customer by using the search bar or select category, product on the navbar
 * Be able to make a purchase
-* Have clear information about the product, music classes, about the shop
+* Have clear information about the product, about the shop
 
 **Need**:
 * Able to add, edit, search and delete the product
@@ -61,14 +61,13 @@ As a **First-Time User**, I want:
 * To register to the website so I can have an account
 
 As a **Registered User**, I want:
-* To log in to my account so I can view my order history
+* To log in to my account so I can check my profile, order history
 * To complete my order without filling in the form again so I can check out quickly
 * To modify my shipping information in my profile so I can update the delivery address without filling the form again during the checkout
 * To logout from my account so I can keep my account private
 
 As an **Administrator**, I want:
 * To log in as an admin account so I can create, view, update and delete the products
-* To log in as an admin account so I can create, view, update and delete classes, teacher information
 * To access my admin account so I can view the users, product info and manage the website
 
 ## Features <a name="features"></a>
