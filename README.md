@@ -73,6 +73,8 @@ As an **Administrator**, I want:
 ## Features <a name="features"></a>
 
 ## Database <a name="database"></a>
+The schema for the database below:  
+![database schema](https://user-images.githubusercontent.com/76018052/141834071-02ae80a8-1e9a-4a8e-a297-b896620c032d.PNG)
 
 ## Wireframe <a name="wireframe"></a>
 
