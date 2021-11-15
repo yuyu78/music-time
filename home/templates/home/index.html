@@ -1,6 +1,38 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
-    <h1 class="display-4 text-success">It works!</h1>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <h1>
+                        Bring music to life
+                    </h1>
+                    <div>
+                        <h4>
+                            <a href="">Shop Now!</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1><u>About us</u></h1>
+                </div>
+                <div class="col-12 col-md-6 text-center">image</div>
+                <div class="col-12 col-md-6 text-center">paragrap</div>
+            </div>
+        </div>
+    </main>
 {% endblock %}
