@@ -5,21 +5,69 @@ html {
 /* ------------------------------------------------------------------ Navbar*/
 
 .red-navbar {
-    height: 8vh;
+    min-height: 8vh;
 }
 
-.red-navbar a {
-    color: white;
-    text-decoration: none;
-}
-
-.red-navbar a:hover {
+.red-navbar .text-white:hover {
     color: black;
-    text-shadow: 0 0 10px rgb(233, 197, 166);
+    text-shadow: 5px 5px 10px rgb(8, 4, 0);
+    text-decoration: none;
 }
 
 .dropdown-menu a {
     color: black;
+}
+
+#main-nav a {
+    color: black;
+}
+
+#main-nav li:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+/* ----- Tablet and mobile */
+@media only screen and (max-width: 998px) {
+    .red-navbar, .red-navbar .col-12 {
+        display: none;
+    }
+    header .bg-white {
+        background-color: #dc3545!important;
+        max-height: 6.5rem;
+    }
+    .navbar-light a {
+        color:white;
+    }
+    .bg-white ul {
+        margin-top: 20px;
+    }
+    .navbar-collapse {
+        background-color: white;
+    }
+}
+
+/* ----- Mobile */
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+
+@media only screen and (max-width: 568px) {
+    .bg-white .nav-link {
+        padding: 0rem 0.5rem;
+    }
+    .dropdown-menu .dropdown-item {
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .bg-white .list-inline-item {
+        margin-top: 10px;
+        font-size: .7rem;
+    }
+    .navbar {
+        padding: 0rem 0.5rem;
+    }
 }
 
 /* ------------------------------------------------------------------ Home page*/
@@ -55,4 +103,20 @@ html {
 .shop-now-button:hover {
     background: rgb(217 34 34 / 43%);
     color: white;
+}
+
+/* ----- Tablet */
+@media only screen and (max-width: 768px) {
+    .heading-content {
+        margin: 15rem auto auto 5rem;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .heading-content {
+        margin: 15rem auto auto 2rem;
+    }
+    .heading-content h1 {
+        font-size: 2rem;
+    }
 }
