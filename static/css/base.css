@@ -70,6 +70,16 @@ html {
     }
 }
 
+/* ----- Mobile weight 280px */
+@media only screen and (max-width: 280px) {
+    .bg-white .list-inline-item {
+        font-size: .6rem;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.45rem;
+    }
+}
+
 /* ------------------------------------------------------------------ Home page*/
 
 .hero-image {
