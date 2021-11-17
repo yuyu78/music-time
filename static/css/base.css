@@ -89,6 +89,27 @@ main {
     }
 }
 
+/* ------------------------------------------------------------------ Footer*/
+
+footer .container-fluid {
+    padding: 30px;
+}
+
+.copyright {
+    padding: 0 30px 30px 30px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.fab {
+    color:white;
+    font-size: 25px;
+}
+
 /* ------------------------------------------------------------------ Home page*/
 
 .hero-image {
@@ -148,3 +169,4 @@ main {
         font-size: 1.6rem;
     }
 }
+
