@@ -85,3 +85,6 @@ The schema for the database below:
 ## Deployment <a name="deployment"></a>
 
 ## Credits <a name="credits"></a>
+
+### Inspiration
+The project is inspired from the course of Code Institute: **Project - Boutique Ado**
