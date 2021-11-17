@@ -26,6 +26,10 @@ html {
     background-color: rgba(0,0,0,0.1);
 }
 
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
 /* ----- Tablet and mobile */
 @media only screen and (max-width: 998px) {
     .red-navbar, .red-navbar .col-12 {
@@ -54,9 +58,6 @@ html {
 @media only screen and (max-width: 568px) {
     .bg-white .nav-link {
         padding: 0rem 0.5rem;
-    }
-    .dropdown-menu .dropdown-item {
-        color: black;
     }
 }
 
