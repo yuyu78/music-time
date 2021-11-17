@@ -30,6 +30,10 @@ html {
     color: black;
 }
 
+.bg-brown {
+    background: #a78e8e !important;
+}
+
 /* ----- Tablet and mobile */
 @media only screen and (max-width: 998px) {
     .red-navbar, .red-navbar .col-12 {
@@ -125,7 +129,7 @@ html {
 
 @media only screen and (max-width: 568px) {
     .heading-content {
-        margin: 10rem auto auto 2rem;
+        margin: 12rem auto auto 2rem;
     }
     .heading-content h1 {
         font-size: 2rem;
@@ -134,7 +138,7 @@ html {
 
 @media only screen and (max-width: 360px) {
     .heading-content {
-        margin: 8rem 2rem auto 2rem;
+        margin: 11rem 2rem auto 2rem;
     }
     .heading-content h1 {
         font-size: 1.6rem;
