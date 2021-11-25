@@ -1,0 +1,223 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtag2021001",
+            "name": "Yamaha Classical Black ",
+            "description": "Great tone and playability. The Yamaha Classical is ready for the hands of an aspiring player, beginner, or young musician. An easy-to-play acoustic that boasts Yamaha's standards of excellence.",
+            "price": 151.25,
+            "category": 1,
+            "image_url": "https://i.imgur.com/nHzFUQ1.png",
+            "image": "acoustic-guitar-black.PNG"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtag2021002",
+            "name": "Blue Burst",
+            "description": "Blue Burst comes in a smart Blue finish and is a high quality instrument with superb acoustic sound and feel. Ideal for guitarists looking to replicate a warm and even tone with excellent sustain, the use of this particular tone wood looks and sounds special.",
+            "price": 134.25,
+            "category": 1,
+            "image_url": "https://i.imgur.com/OREkOwL.png",
+            "image": "acoustic-guitar-blue-dark.PNG"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtag2021003",
+            "name": "Fender Acoustic Natural",
+            "description": "The Fender Acoustic provides you with a classic acoustic resonance that will flourish in all situations. Its craftsmanship is immediately striking. Beautifully coated in a natural, authentic finish on a solid spruce top - it typifies elegance.",
+            "price": 185.00,
+            "category": 1,
+            "image_url": "https://i.imgur.com/F0NRCNo.png",
+            "image": "acoustic-guitar-natural.PNG"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtag2021004",
+            "name": "Yamaha Tobacco Sunburst",
+            "description": "The Yamaha Tobacco Sunburst is perfect for beginners thanks to its reduced size and affordable price whilst its sublime sound is enough to entice accomplished guitarists too. Whatever your ability level, unleash your creativity and immerse yourself in a dreamy playing experience with this brilliantly designed guitar.",
+            "price": 179.25,
+            "category": 1,
+            "image_url": "https://i.imgur.com/K3AHfdh.png",
+            "image": "acoustic-guitar-brown-dark.PNG"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "mteg2021001",
+            "name": "Harlem X Electric Guitar",
+            "description": "The Harlem X Electric Guitar is an instantly playable, critically respected and striking looking electric guitar for modern rock and metal styles, and makes an ideal introduction to the world of rock and metal playing at a very affordable price.",
+            "price": 210.50,
+            "category": 2,
+            "image_url": "https://i.imgur.com/YUaxAcR.png",
+            "image": "electric-guitar-black.PNG"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "mteg2021002",
+            "name": "LA Electric Guitar",
+            "description": "This LA Electric Guitar will serve as the perfect place for you to begin your guitar playing journey. It's fully strung and comes set up in immaculate condition, so just tune it up and you're good to go. Incredibly affordable for a guitar of such quality, it'll keep you inspired to keep playing too.",
+            "price": 121.90,
+            "category": 2,
+            "image_url": "https://i.imgur.com/pfALD2N.png",
+            "image": "electric-guitar-black-white.PNG"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "mteg2021003",
+            "name": "LA Select Electric Guitar HSS",
+            "description": "Modern features, classic styling, with the LA Select Electric Guitar HSS, you can join decades of musical history. No matter if it's your first step towards the Rock 'n' Roll Hall of Fame or if you've already made your deal at the crossroads. The LA Select is the guitar you'll want by your side.",
+            "price": 158.50,
+            "category": 2,
+            "image_url": "https://i.imgur.com/pcjU4up.png",
+            "image": "electric-guitar-blue.PNG"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "mteg2021004",
+            "name": "Fender Tricolor Sunburst",
+            "description": "The Fender Tricolor Sunburst has been designed for adventurous players. It has the beautiful resonance combined with the power and stability of a solid body. It delivers a punchy, dynamic tone which is both balanced and powerful - they cater to players of all types. You won't have any trouble finding a golden sound with this guitar.",
+            "price": 934.00,
+            "category": 2,
+            "image_url": "https://i.imgur.com/cUCdSZX.png",
+            "image": "electric-guitar-brown-white.PNG"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "mteg2021005",
+            "name": "Epiphone Aged Dark Cherry Burst",
+            "description": "Vintage style. Recreated for the modern player. The Epiphone Aged Dark Cherry Burst delivers the tone you love with added performance. You'll get enhanced playability from a mahogany body, hand-rolled neck, and era specific electronics.",
+            "price": 805.00,
+            "category": 2,
+            "image_url": "https://i.imgur.com/vxjycQp.png",
+            "image": "electric-guitar-red-orange.PNG"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "mteg2021006",
+            "name": "Encore E6 Electric Guitar",
+            "description": "The Encore E6 is built with features that will encourage you to keep playing and practising, all in a distinctive design. From the comfort of a lightweight, contoured body and smooth fretboard to an instantly recognisable tone courtesy of the three single-coil pickups - you'll find it's easy to find your own sound.",
+            "price": 146.25,
+            "category": 2,
+            "image_url": "https://i.imgur.com/w2yXXZb.png",
+            "image": "electric-guitar-red-white.PNG"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtap2021001",
+            "name": "Steinway & Sons B-211",
+            "description": "This Grand PIano is a fine example of the inherent Steinway sound in its purist form. It's this instrument's rich scale and its impressive sound that have made this model the the most sought after Grand PIano of our pianists and musicians today.",
+            "price": 54100,
+            "category": 3,
+            "image_url": "https://i.imgur.com/PhjTy5F.png",
+            "image": "grand-piano.PNG"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtap2021002",
+            "name": "Yamaha GB1 K Walnut Polished",
+            "description": "The elegant Grand Piano Yamaha fits into smaller rooms and does not break the bank. It's musical performance with high quality sound, a full and resonant tone that only a grand piano can possess.",
+            "price": 11390,
+            "category": 3,
+            "image_url": "https://i.imgur.com/7TOzPv4.png",
+            "image": "grand-piano-brown.PNG"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtap2021003",
+            "name": "Bluthner Upright",
+            "description": "Blüthner Pianos are one of the few German piano manufacturers still owned and run by the family. Superb, handmade pianos, every piece individually chosen ensuring that only the most perfect materials are used to make these glorious instruments.",
+            "price": 24367.00,
+            "category": 3,
+            "image_url": "https://i.imgur.com/1EWrfKQ.png",
+            "image": "piano-upright-black.PNG"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtdp2021001",
+            "name": "Yamaha Piaggero NP32 Portable",
+            "description": "The graded touch sensitive keys of the Yamaha Piaggero NP32 portable let you play different dynamics to add expression to your music. This offers an impressive amount of realism for a compact and lightweight keyboard, so you can take your true piano sound anywhere.",
+            "price": 324.50,
+            "category": 4,
+            "image_url": "https://i.imgur.com/My0bpXR.png",
+            "image": "piano-yamaha-piaggero-portable.PNG"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtdp2021002",
+            "name": "Yamaha YC73 Digital Stage",
+            "description": "A modern stage piano with vintage qualities. The Yamaha YC73 digital stage piano with drawbars combines authentic performance with high-quality organ and piano modelling for the stage.",
+            "price": 2252.00,
+            "category": 4,
+            "image_url": "https://i.imgur.com/msxwBeC.png",
+            "image": "piano-yamaha-yc-digital-stage.PNG"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtdp2021003",
+            "name": "Yamaha P45 Digital Piano",
+            "description": "The Yamaha P45 digital piano pushes your playing to the next level with 88 graded hammer action keys. So just like an acoustic, the P45's keys each have a little hammer inside, giving you authentic touch.",
+            "price": 465.00,
+            "category": 4,
+            "image_url": "https://i.imgur.com/mIEmsvJ.png",
+            "image": "piano-yamaha-p-digital.PNG"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "mtdp2021004",
+            "name": "Yamaha CP88 Digital Stage White",
+            "description": "Combining world-class sounds with cutting edge technology. The all new CP 88 offers portability without compromising the quality of the instrument. So you can perform on any stage! Convenience in its purest form.",
+            "price": 2610.00,
+            "category": 4,
+            "image_url": "https://i.imgur.com/HSde01o.png",
+            "image": "piano-yamaha-cp-digital-stage-white.PNG"
+        }
+    }
+]

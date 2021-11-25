@@ -1,0 +1,146 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "acoustic_guitar",
+      "friendly_name": "Acoustic Guitar"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "electric_guitar",
+      "friendly_name": "Electric Guitar"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "acoustic_piano",
+      "friendly_name": "Acoustic Piano"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "digital_piano",
+      "friendly_name": "Digital Piano"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "stools_piano",
+      "friendly_name": "Stools piano"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "clarinets",
+      "friendly_name": "Clarinets"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+      "name": "flutes",
+      "friendly_name": "Flutes"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+      "name": "harmonica",
+      "friendly_name": "Harmonica"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+      "name": "recorders",
+      "friendly_name": "Recorders"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+      "name": "saxophone",
+      "friendly_name": "Saxophone"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+      "name": "trombone",
+      "friendly_name": "Trombone"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.category",
+    "fields": {
+      "name": "trumpet",
+      "friendly_name": "Trumpet"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.category",
+    "fields": {
+      "name": "violin",
+      "friendly_name": "Violin"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.category",
+    "fields": {
+      "name": "viola",
+      "friendly_name": "Viola"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.category",
+    "fields": {
+      "name": "double_bass",
+      "friendly_name": "Double Bass"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.category",
+    "fields": {
+      "name": "cello",
+      "friendly_name": "Cello"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.category",
+    "fields": {
+      "name": "acoustic_drum",
+      "friendly_name": "Acoustic Drum"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.category",
+    "fields": {
+      "name": "electronic_drum",
+      "friendly_name": "Electronic Drum"
+    }
+  }
+]
