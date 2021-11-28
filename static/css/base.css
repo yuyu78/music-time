@@ -8,6 +8,13 @@ body {
     position: relative;
 }
 
+@media only screen and (min-height: 1024px) {
+    html, body {
+        height: 0;
+        min-height: 83vh;
+    }
+}
+
 main {
     overflow-x: hidden;
 }

@@ -33,7 +33,13 @@ To remove this space, I found the solution in [CodeConvey](https://codeconvey.co
 To do a stick footer at the bottom of the page but not fixed:  
 -I had to set the height to 100% for HTML element.  
 -Set the position to relative in the body element.  
--Set the position to absolute on tablet and desktop size in the footer element.
+-Set the position to absolute on tablet and desktop size in the footer element.  
+
+* On Ipad pro, there was a huge unnecessary space under the product detail, which is not good user experience as we need to scroll down to check the footer.  
+![space-under-detail](https://user-images.githubusercontent.com/76018052/143766158-50b74b10-44a0-433d-9f3d-6c60f00058ba.PNG)  
+To remove this unnecessary spaceon Ipad, I found the solution [here](https://bbpress.org/forums/topic/footer-on-ipad-has-whitespace-below-how-do-i-remove/).  
+I just had to set a minimum height on tablet size  
+![tablet-size-min-height](https://user-images.githubusercontent.com/76018052/143766238-12799fde-b605-4304-bda6-1c9b4d343a63.PNG)
 
 ## Validators <a name="validators"></a>
 
