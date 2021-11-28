@@ -75,36 +75,12 @@
     "pk": 10,
     "model": "products.category",
     "fields": {
-      "name": "saxophone",
-      "friendly_name": "Saxophone"
-    }
-  },
-  {
-    "pk": 11,
-    "model": "products.category",
-    "fields": {
-      "name": "trombone",
-      "friendly_name": "Trombone"
-    }
-  },
-  {
-    "pk": 12,
-    "model": "products.category",
-    "fields": {
-      "name": "trumpet",
-      "friendly_name": "Trumpet"
-    }
-  },
-  {
-    "pk": 13,
-    "model": "products.category",
-    "fields": {
       "name": "violin",
       "friendly_name": "Violin"
     }
   },
   {
-    "pk": 14,
+    "pk": 11,
     "model": "products.category",
     "fields": {
       "name": "viola",
@@ -112,7 +88,7 @@
     }
   },
   {
-    "pk": 15,
+    "pk": 12,
     "model": "products.category",
     "fields": {
       "name": "double_bass",
@@ -120,7 +96,7 @@
     }
   },
   {
-    "pk": 16,
+    "pk": 13,
     "model": "products.category",
     "fields": {
       "name": "cello",
@@ -128,7 +104,7 @@
     }
   },
   {
-    "pk": 17,
+    "pk": 14,
     "model": "products.category",
     "fields": {
       "name": "acoustic_drum",
@@ -136,7 +112,7 @@
     }
   },
   {
-    "pk": 18,
+    "pk": 15,
     "model": "products.category",
     "fields": {
       "name": "electronic_drum",

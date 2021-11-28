@@ -11,34 +11,64 @@
             </div>
         </li>
 
-        <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link mr-5" href="#">
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="guitar-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Guitar
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="guitar-link">
+                <a href="{% url 'products' %}?category=acoustic_guitar" class="dropdown-item">Acoustic Guitar</a>
+                <a href="{% url 'products' %}?category=electric_guitar" class="dropdown-item">Electric Guitar</a>
+                <a href="{% url 'products' %}?category=acoustic_guitar,electric_guitar" class="dropdown-item">All Guitar</a>
+            </div>
         </li>
 
-        <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link mr-5" href="#">
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="keyboard-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Keyboard
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="keyboard-link">
+                <a href="{% url 'products' %}?category=acoustic_piano" class="dropdown-item">Acoustic Piano</a>
+                <a href="{% url 'products' %}?category=digital_piano" class="dropdown-item">Digital Piano</a>
+                <a href="{% url 'products' %}?category=stools_piano" class="dropdown-item">Stools Piano</a>
+                <a href="{% url 'products' %}?category=acoustic_piano,digital_piano,stools_piano" class="dropdown-item">All Keyboard</a>
+            </div>
         </li>
 
-        <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link mr-5" href="#">
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="wind-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Wind
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="wind-link">
+                <a href="{% url 'products' %}?category=clarinets" class="dropdown-item">Clarinets</a>
+                <a href="{% url 'products' %}?category=flutes" class="dropdown-item">Flutes</a>
+                <a href="{% url 'products' %}?category=harmonica" class="dropdown-item">Harmonica</a>
+                <a href="{% url 'products' %}?category=recorders" class="dropdown-item">Recorders</a>
+                <a href="{% url 'products' %}?category=clarinets,flutes,harmonica,recorders" class="dropdown-item">All Wind Instrument</a>
+            </div>
         </li>
 
         <li class="nav-item dropdown mr-5">
-            <a class="logo-font font-weight-bold nav-link" href="#">
+            <a class="logo-font font-weight-bold nav-link" href="#" id="string-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 String
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="string-link">
+                <a href="{% url 'products' %}?category=violin" class="dropdown-item">Violin</a>
+                <a href="{% url 'products' %}?category=viola" class="dropdown-item">Viola</a>
+                <a href="{% url 'products' %}?category=double_bass" class="dropdown-item">Double Bass</a>
+                <a href="{% url 'products' %}?category=cello" class="dropdown-item">Cello</a>
+                <a href="{% url 'products' %}?category=violin,viola,double_bass,cello" class="dropdown-item">All String Instrument</a>
+            </div>
         </li>
 
         <li class="nav-item dropdown mr-5">
-            <a class="logo-font font-weight-bold nav-link" href="#">
+            <a class="logo-font font-weight-bold nav-link" href="#" id="drum-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Percussion
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="drum-link">
+                <a href="{% url 'products' %}?category=acoustic_drum" class="dropdown-item">Acoustic Drum</a>
+                <a href="{% url 'products' %}?category=electronic_drum" class="dropdown-item">Electronic Drum</a>
+                <a href="{% url 'products' %}?category=acoustic_drum,electronic_drum" class="dropdown-item">All Drum</a>
+            </div>
         </li>
 
     </ul>
