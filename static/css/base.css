@@ -201,6 +201,23 @@ footer .container-fluid {
     object-fit: contain;
     }
 
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+    
 /* ------------------------------------------------------------------ Product_detail page*/
 
 .img-detail {
