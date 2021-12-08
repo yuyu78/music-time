@@ -242,6 +242,7 @@ a.category-badge > span.badge:hover {
 }
 
 /* ------------------------------------------------------------------ Bag page*/
+
 .btn-outline-black {
     background: white;
     color: black !important;
@@ -259,4 +260,21 @@ a.category-badge > span.badge:hover {
     #bag-page{
         min-height: 58vh;
     }
+}
+
+/* ------------------------------- Bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
 }
