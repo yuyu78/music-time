@@ -14,13 +14,15 @@ main {
 
 /* ------------------------------------------------------------------ margin-top on all the page*/
 
-.mg-top {
+.margin-tb{
     margin-top: 12rem;
+    min-height: 40vh;
 }
 
 @media only screen and (min-height: 1326px) {
-    .mg-top {
+    .margin-tb {
         margin-top: 15rem;
+        min-height: 53vh;
     }
 }
 
@@ -190,7 +192,7 @@ footer .container-fluid {
 
 /* ------------------------------------------------------------------ Products page*/
 
-.mg-top h2 {
+.margin-tb h2 {
     text-decoration: underline;
     text-align: center;
 }
@@ -235,12 +237,6 @@ a.category-badge > span.badge:hover {
     text-align: center;
 }
 
-@media only screen and (min-width: 1024px) {
-    #product-detail{
-        min-height: 53vh;
-    }
-}
-
 /* ------------------------------------------------------------------ Bag page*/
 
 .btn-outline-black {
@@ -254,12 +250,6 @@ a.category-badge > span.badge:hover {
 .btn-outline-black:focus {
     background: black;
     color: white !important;
-}
-
-@media only screen and (min-width: 768px) {
-    #bag-page{
-        min-height: 58vh;
-    }
 }
 
 /* ------------------------------- Bootstrap toasts */

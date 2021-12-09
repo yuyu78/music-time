@@ -30,8 +30,9 @@
 * On Ipad pro, the footer was not placed on the bottom so there was a space under:   
 ![space-footer](https://user-images.githubusercontent.com/76018052/143784078-941acc8c-0c95-46b3-bcb2-4332a492677b.PNG)    
 To remove this space on the device Ipad Pro, I found the solution [here](https://bbpress.org/forums/topic/footer-on-ipad-has-whitespace-below-how-do-i-remove/).  
-I just had to set a minimum height from the width 1024px   
-![footer-bottom](https://user-images.githubusercontent.com/76018052/143783827-380117f2-60aa-4094-b63e-222271bddb7d.PNG)
+I just had to set a minimum height and adjust to make responsive  on Ipad  
+![margin-tb](https://user-images.githubusercontent.com/76018052/145436139-a57929bc-b5d1-4ebb-84af-92759b64e59b.PNG)
+
 
 ## Validators <a name="validators"></a>
 
