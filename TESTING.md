@@ -31,8 +31,11 @@
 ![space-footer](https://user-images.githubusercontent.com/76018052/143784078-941acc8c-0c95-46b3-bcb2-4332a492677b.PNG)    
 To remove this space on the device Ipad Pro, I found the solution [here](https://bbpress.org/forums/topic/footer-on-ipad-has-whitespace-below-how-do-i-remove/).  
 I just had to set a minimum height and adjust to make responsive  on Ipad  
-![margin-tb](https://user-images.githubusercontent.com/76018052/145436139-a57929bc-b5d1-4ebb-84af-92759b64e59b.PNG)
+![margin-tb](https://user-images.githubusercontent.com/76018052/145436139-a57929bc-b5d1-4ebb-84af-92759b64e59b.PNG)  
 
+* After exporting the API keys, when I refreshed the page, and error message came up  
+![authentification error](https://user-images.githubusercontent.com/76018052/145440999-163650e8-82e6-4325-9a5f-904e22b6825c.PNG)  
+I found the solution in Slack community: a tutor advised when we export the API keys from the terminal, we have to run the runserver command in the same terminal in order for Django to able to access them.
 
 ## Validators <a name="validators"></a>
 
