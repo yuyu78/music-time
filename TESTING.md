@@ -37,6 +37,15 @@ I just had to set a minimum height and adjust to make responsive  on Ipad
 ![authentification error](https://user-images.githubusercontent.com/76018052/145440999-163650e8-82e6-4325-9a5f-904e22b6825c.PNG)  
 I found the solution in Slack community: a tutor advised when we export the API keys from the terminal, we have to run the runserver command in the same terminal in order for Django to able to access them.
 
+* I tried to make migrations for my models btu when I put in the command "python3 manage.py migrate --plan", it showed a message there is no planned migrations operations.  
+![no migration](https://user-images.githubusercontent.com/76018052/145674967-98855c94-1093-407b-b0fb-fcbbf6124ff6.PNG)  
+I found the solution in slack community: it is because I have only done a dry run, but I need to run the makemigrations without the --dry-run option, so I followed the step bellow in the command to successfully migrate the change:  
+> python3 manage.py makemigrations --dry-run  
+> python3 manage.py makemigrations   
+> python3 manage.py migrate --plan  
+> python3 manage.py migrate  
+
+
 ## Validators <a name="validators"></a>
 
 ## Lighthouse testing <a name="lighthouse-testing"></a>  
