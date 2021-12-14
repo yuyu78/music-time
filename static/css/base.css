@@ -161,7 +161,7 @@ footer .container-fluid {
 }
 
 .heading-content {
-    margin: 15rem auto auto 15rem;
+    margin: 20rem auto auto 10rem;
     color: white;
     background-color: #705353d4;
     border: 1px groove #12101066;
@@ -170,27 +170,25 @@ footer .container-fluid {
 }
 
 /* ----- Tablet */
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-height: 823px) {
     .heading-content {
-        margin: 15rem auto auto 5rem;
+        margin: 13rem 5rem auto 3rem;
+    }
+}
+
+@media only screen and (max-height: 420px) {
+    .hero-image {
+        height: 130vh;
     }
 }
 
 @media only screen and (max-width: 568px) {
-    .heading-content {
-        margin: 12rem auto auto 2rem;
-    }
+    /* .heading-content {
+        margin: 12rem 5rem auto 3rem;
+    } */
     .heading-content h1 {
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    .heading-content {
-        margin: 11rem 2rem auto 2rem;
-    }
-    .heading-content h1 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 }
 
